@@ -16,7 +16,6 @@ A simple Java webapp in Spark framework.
 1. Start server `java -jar build/libs/spark-starter-0.1.0-all.jar`
 1. Visit [http://localhost:8080/](http://localhost:8080/) to see the app running.
 
-<!--
 ## Run in Docker
 
 1. Download code `git clone https://github.com/amdelamar/spark-starter`
@@ -25,7 +24,6 @@ A simple Java webapp in Spark framework.
 1. Build image `docker build -t spark .`
 1. Run container `docker run -p 8080:8080 spark`
 1. Visit [http://<container-ip>:8080/](http://<container-ip>:8080/) to see the app running.
--->
 
 ## License
 
