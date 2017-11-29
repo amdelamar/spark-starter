@@ -23,7 +23,7 @@ A simple Java webapp in Spark framework.
 1. Run build `./gradlew clean build`
 1. Build image `docker build -t spark .`
 1. Run container `docker run -p 8080:8080 spark`
-1. Visit [http://<container-ip>:8080/](http://<container-ip>:8080/) to see the app running.
+1. Visit [http://localhost:8080/](http://localhost:8080/) to see the app running.
 
 ## License
 
