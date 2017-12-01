@@ -14,22 +14,15 @@ buildscript {
 
 apply plugin: "com.github.johnrengelman.plugin-shadow"
 
-repositories {
-    mavenCentral()
-}
-
+group 'com.amdelamar'
+version = '0.1.0'
+baseName = 'spark-starter'
+mainClassName = 'hello.Spark'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-mainClassName = 'hello.Spark'
-
-jar {
-    baseName = 'spark-starter'
-    version = '0.1.0'
-}
-
-shadowJar {
-    version = '0.1.0'
+repositories {
+    mavenCentral()
 }
 
 dependencies {
