@@ -16,7 +16,7 @@ apply plugin: "com.github.johnrengelman.plugin-shadow"
 
 group 'com.amdelamar'
 version = '0.1.0'
-baseName = 'spark-starter'
+jar.baseName = 'spark-starter'
 mainClassName = 'hello.Spark'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
