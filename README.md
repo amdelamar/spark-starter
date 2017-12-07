@@ -18,8 +18,6 @@ A simple Java webapp in Spark framework.
 
 ## Run in Docker
 
-1. Download code `git clone https://github.com/amdelamar/spark-starter`
-1. `cd spark-starter`
 1. Run build `./gradlew clean build`
 1. Build image `docker build -t spark .`
 1. Run container `docker run -p 8080:8080 spark`
