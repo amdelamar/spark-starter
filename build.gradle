@@ -14,13 +14,14 @@ buildscript {
 
 apply plugin: "com.github.johnrengelman.shadow"
 
-group 'com.amdelamar'
+group = 'com.amdelamar'
 version = '0.1.0'
 jar.baseName = 'spark-starter'
 jar.enabled = false
 mainClassName = 'hello.Spark'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
 
 repositories {
     mavenCentral()
